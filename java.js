@@ -29,12 +29,17 @@ async function renderCharacters(){
        for(let i = 0; i < characters1.length; i++){
        let currentCharacterObject = characters1[i];
        card.appendChild(generateCharacterCard(currentCharacterObject));
+       let characterContainer = document.getElementById('charcter-list')
+       characterContainer.innerHTML=""
        }
     }catch(error){
         console.log("There was a error",error); 
     }
 }
-
+// function generateCharacterCard(){
+//     let characterCard = document.createElement("div");
+//     characterCard.className = "charcter-Card"
+// }
 renderCharacters();    
 
 
