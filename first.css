@@ -1,4 +1,41 @@
 * {
     color: red;
-    background-color: black;
+    background-color: rgb(12, 12, 12);
 }
+
+
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px; /* Optional: Adds some space around items */
+}
+
+.character-card {
+    border: 1px solid #ccc; /* Optional: Card border */
+    border-radius: 5px; /* Optional: Adds rounded corners to the card */
+    padding: 10px; /* Optional: Adds padding inside the card */
+}
+
+
+
+.character-card {
+    border-right: 1px solid #ccc; /* Adds a line to the right of each card */
+    border-bottom: 1px solid #ccc; /* Adds a line to the bottom of each card */
+}
+/* .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+ }
+.card .character-card {
+    flex: 0 0 5%;
+    margin: 10px;  */
+    /* Optional: Adds some space around each card */
+    /* border: 1px solid #ccc; */
+     /* Optional: Card border */
+    /* border-radius: 5px; */
+     /* Optional: Adds rounded corners to the card */
+    /* padding: 10px; */
+     /* Optional: Adds padding inside the card */
+/* } */
